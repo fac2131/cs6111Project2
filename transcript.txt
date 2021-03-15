@@ -4,274 +4,319 @@ Client key  = AIzaSyCLDWIQPEW3ryJSU9F0ZNyl2LqAdUYoDJw
 Engine key  = 40b1f20d99e95e3e4
 Relation    = per:employee_of
 Threshold   = 0.7
-Query       = bill gates miscrosoft
+Query       = bill gates microsoft
 # of Tuples = 10
 Loading necessary libraries; This should take a minute or so ...
-=========== Iteration: 1 - Query: bill gates miscrosoft ===========
-URL (1 / 10): https://www.geekwire.com/2020/hidden-history-microsoft-facebook-says-social-networks-future/
+=========== Iteration: 1 - Query: bill gates microsoft ===========
+URL (1 / 10): https://www.gatesnotes.com/
 	Fetching text from url ... 
 
-	Webpage length (num characters): 5215
+	Webpage length (num characters): 42
 	Annotating the webpage using spacy...
-	Extracted 41 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (2 / 10): https://www.nytimes.com/2020/03/13/technology/bill-gates-microsoft-board.html
+	Fetching text from url ... 
+
+	Webpage length (num characters): 4749
+	Annotating the webpage using spacy...
+	Extracted 40 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
 
 		=== Extracted Relation ===
-		Sentence: That’s one of the questions I asked veteran tech journalist Steven Levy, editor-at-large for Wired magazine, during our conversation about his new book, “Facebook: The Inside Story,” during a University Bookstore event in Seattle this week.
-		Confidence: 0.8198130130767822 ; Subject : Steven Levy ; Objects : Wired ;
-		Adding to set of extracted relations
-		==========
-	Processed 5 / 41 sentences
-
-		=== Extracted Relation ===
-		Sentence: For example, as Levy documents in the book, Facebook CEO Mark Zuckerberg was inspired by Bill Gates’ example to drop out of Harvard and work on Facebook full time.
-		Confidence: 0.9845180511474609 ; Subject : Mark Zuckerberg ; Objects : Facebook ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9929335713386536 ; Subject : Bill ; Objects : Microsoft ;
+		Sentence: By Daisuke Wakabayashi and Steve Lohr SAN FRANCISCO — Bill Gates is stepping down from the board of Microsoft, the software giant he helped found more than four decades ago.
+		Confidence: 0.9890077710151672 ; Subject : Daisuke Wakabayashi ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9964539408683777 ; Subject : Melinda Gates ; Objects : Microsoft ;
+		Sentence: By Daisuke Wakabayashi and Steve Lohr SAN FRANCISCO — Bill Gates is stepping down from the board of Microsoft, the software giant he helped found more than four decades ago.
+		Confidence: 0.992627739906311 ; Subject : Steve Lohr ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9920836091041565 ; Subject : Mark Zuckerberg ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.8520439267158508 ; Subject : Priscilla Chan ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9962828159332275 ; Subject : Bill ; Objects : Facebook ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9967865943908691 ; Subject : Melinda Gates ; Objects : Facebook ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9969043731689453 ; Subject : Mark Zuckerberg ; Objects : Facebook ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was an investor in Facebook before the social network’s initial public offering, and Bill and Melinda Gates served as a model for Mark Zuckerberg and his wife Priscilla Chan in launching the Chan Zuckerberg Initiative.
-		Confidence: 0.9924630522727966 ; Subject : Priscilla Chan ; Objects : Facebook ;
-		Adding to set of extracted relations
-		==========
-	Processed 10 / 41 sentences
-	Processed 15 / 41 sentences
-
-		=== Extracted Relation ===
-		Sentence: One key to Microsoft’s resurgence was the elevation of Satya Nadella to CEO, ushering in a new era after the departure of Gates’ successor and longtime colleague Steve Ballmer.
-		Confidence: 0.6203932166099548 ; Subject : Steve Ballmer ; Objects : Microsoft ;
+		Sentence: By Daisuke Wakabayashi and Steve Lohr SAN FRANCISCO — Bill Gates is stepping down from the board of Microsoft, the software giant he helped found more than four decades ago.
+		Confidence: 0.6360853314399719 ; Subject : Bill Gates ; Objects : Microsoft ;
 		Confidence is lower than threshold confidence. Ignoring this.
 		==========
-	Processed 20 / 41 sentences
-	Processed 25 / 41 sentences
-	Processed 30 / 41 sentences
-	Processed 35 / 41 sentences
-	Processed 40 / 41 sentences
-Extracted annotations for  4  out of total  41  sentences
-Relations extracted from this website: 10 (Overall: 11)
-URL (2 / 10): https://www.vg247.com/2020/03/15/bill-gates-leaves-microsoft-board/
-	Fetching text from url ... 
-
-	Webpage length (num characters): 1887
-	Annotating the webpage using spacy...
-	Extracted 19 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 40 sentences
 
 		=== Extracted Relation ===
-		Sentence: By Emily Gera,Sunday, 15 March 2020 15:59 GMT Bill Gates, the creator of Windows and co-founder of Microsoft, has announced he is stepping down from his role on the board of the tech giant.
-		Confidence: 0.9716662764549255 ; Subject : Emily Gera ; Objects : Microsoft ;
+		Sentence: Microsoft said Mr. Gates would remain a technical adviser to the company.
+		Confidence: 0.9753539562225342 ; Subject : Gates ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
+	Processed 10 / 40 sentences
 
 		=== Extracted Relation ===
-		Sentence: By Emily Gera,Sunday, 15 March 2020 15:59 GMT Bill Gates, the creator of Windows and co-founder of Microsoft, has announced he is stepping down from his role on the board of the tech giant.
-		Confidence: 0.9972124695777893 ; Subject : Bill Gates ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-	Processed 5 / 19 sentences
-	Processed 10 / 19 sentences
-	Processed 15 / 19 sentences
-Extracted annotations for  1  out of total  19  sentences
-Relations extracted from this website: 2 (Overall: 2)
-URL (3 / 10): https://www.washingtonpost.com/technology/2020/03/13/bill-gates-microsoft-board/
-	Fetching text from url ... 
-
-	Webpage length (num characters): 2514
-	Annotating the webpage using spacy...
-	Extracted 23 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
-
-		=== Extracted Relation ===
-		Sentence: SEATTLE — Bill Gates, who co-founded Microsoft and led the company as it became a technology juggernaut, is stepping down from the company’s board to spend more time on his philanthropic work.
-		Confidence: 0.9925057291984558 ; Subject : Bill Gates ; Objects : Microsoft ;
+		Sentence: Mr. Gates remains one of the largest individual shareholders of Microsoft.
+		Confidence: 0.9486364722251892 ; Subject : Gates ; Objects : Microsoft ;
 		Duplicate with lower confidence than existing record. Ignoring this.
 		==========
-	Processed 5 / 23 sentences
 
 		=== Extracted Relation ===
-		Sentence: He is the second-wealthiest person in the world, with a total net worth of $102 billion, behind only Amazon founder Jeff Bezos, according to the Bloomberg Billionaires Index.
-		Confidence: 0.9964290857315063 ; Subject : Jeff Bezos ; Objects : Amazon ;
+		Sentence: He said he would remain active at the company and would work closely with Satya Nadella, Microsoft’s chief executive.
+		Confidence: 0.9891210198402405 ; Subject : Satya Nadella ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 15 / 40 sentences
+	Processed 20 / 40 sentences
+
+		=== Extracted Relation ===
+		Sentence: Mr. Gates joined the Berkshire Hathaway board in 2004.
+		Confidence: 0.9972770810127258 ; Subject : Gates ; Objects : Berkshire Hathaway ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Steve Ballmer took on the role, with Gates serving as chief software architect and chairman.
-		Confidence: 0.9954822063446045 ; Subject : Steve Ballmer ; Objects : Gates ;
-		Adding to set of extracted relations
-		==========
-	Processed 10 / 23 sentences
-
-		=== Extracted Relation ===
-		Sentence: Gates will continue to serve as technology adviser to Microsoft chief executive Satya Nadella and others at the company.
-		Confidence: 0.9678264260292053 ; Subject : Satya Nadella ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-	Processed 15 / 23 sentences
-
-		=== Extracted Relation ===
-		Sentence: Microsoft names Nadella as CEO; Gates out as chairman In a statement, Nadella said he looks forward to continuing to work with Gates.
-		Confidence: 0.9665369987487793 ; Subject : Nadella ; Objects : Microsoft ;
+		Sentence: The conglomerate has nominated Kenneth Chenault, the former chief executive of American Express, to replace Mr. Gates on the board.
+		Confidence: 0.9970526695251465 ; Subject : Gates ; Objects : American Express ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft names Nadella as CEO; Gates out as chairman In a statement, Nadella said he looks forward to continuing to work with Gates.
-		Confidence: 0.99528568983078 ; Subject : Nadella ; Objects : Microsoft ;
+		Sentence: Daniel Ives, managing director of equity research at Wedbush Securities, said in a research note that Mr. Gates’s stepping down from the Microsoft board was not a surprise and that it was a vote of confidence for Mr. Nadella and the direction of the company.
+		Confidence: 0.9885230660438538 ; Subject : Daniel Ives ; Objects : Wedbush Securities ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft names Nadella as CEO; Gates out as chairman In a statement, Nadella said he looks forward to continuing to work with Gates.
-		Confidence: 0.9908959865570068 ; Subject : Nadella ; Objects : Gates ;
+		Sentence: Mr. Gates founded Microsoft in 1975, dropping out of Harvard and joining Paul Allen, his friend and technology collaborator since their teenage years at a private high school in Seattle.
+		Confidence: 0.9901818633079529 ; Subject : Gates ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft names Nadella as CEO; Gates out as chairman In a statement, Nadella said he looks forward to continuing to work with Gates.
-		Confidence: 0.9968065023422241 ; Subject : Nadella ; Objects : Gates ;
-		Adding to set of extracted relations
+		Sentence: Mr. Gates founded Microsoft in 1975, dropping out of Harvard and joining Paul Allen, his friend and technology collaborator since their teenage years at a private high school in Seattle.
+		Confidence: 0.5143623352050781 ; Subject : Gates ; Objects : Harvard ;
+		Confidence is lower than threshold confidence. Ignoring this.
 		==========
-
-		=== Extracted Relation ===
-		Sentence: Microsoft names Nadella as CEO; Gates out as chairman In a statement, Nadella said he looks forward to continuing to work with Gates.
-		Confidence: 0.9957053661346436 ; Subject : Nadella ; Objects : Gates ;
-		Duplicate with lower confidence than existing record. Ignoring this.
-		==========
-	Processed 20 / 23 sentences
-Extracted annotations for  5  out of total  23  sentences
-Relations extracted from this website: 7 (Overall: 9)
-URL (4 / 10): https://www.microsoft.com/en-us/research/project/tuva-richard-feynman/
+	Processed 25 / 40 sentences
+	Processed 30 / 40 sentences
+	Processed 35 / 40 sentences
+Extracted annotations for  8  out of total  40  sentences
+Relations extracted from this website: 8 (Overall: 11)
+URL (3 / 10): https://www.britannica.com/biography/Bill-Gates
 	Fetching text from url ... 
 
-	Webpage length (num characters): 2262
-	Annotating the webpage using spacy...
-	Extracted 19 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
-	Processed 5 / 19 sentences
-	Processed 10 / 19 sentences
-	Processed 15 / 19 sentences
-Extracted annotations for  0  out of total  19  sentences
-Relations extracted from this website: 0 (Overall: 0)
-URL (5 / 10): https://www.nbcnews.com/news/us-news/putin-wants-push-microsoft-out-russia-battle-us-n674781
-	Fetching text from url ... 
-
-	Webpage length (num characters): 4189
+	Webpage length (num characters): 5819
 	Annotating the webpage using spacy...
 	Extracted 39 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Sentence: Bill Gates, in full William Henry Gates III,  (born October 28, 1955, Seattle, Washington, U.S.),  American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+		Confidence: 0.8160925507545471 ; Subject : Bill Gates ; Objects : Microsoft Corporation ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: Bill Gates, in full William Henry Gates III,  (born October 28, 1955, Seattle, Washington, U.S.),  American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+		Confidence: 0.9837643504142761 ; Subject : William Henry Gates III ; Objects : Microsoft Corporation ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: Bill Gates cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+		Confidence: 0.9180271029472351 ; Subject : Bill Gates ; Objects : Microsoft Corporation ;
+		Adding to set of extracted relations
+		==========
 	Processed 5 / 39 sentences
 
 		=== Extracted Relation ===
-		Sentence: Related: See Some of Putin’s Stranger Moments in the Spotlight "They are obviously stepping up their game," Fiona Hill, a senior fellow at the Brookings Institution.
-		Confidence: 0.9966705441474915 ; Subject : Fiona Hill ; Objects : the Brookings Institution ;
+		Sentence: Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+		Confidence: 0.9868191480636597 ; Subject : Bill Gates ; Objects : Microsoft Corporation ;
 		Adding to set of extracted relations
 		==========
 	Processed 10 / 39 sentences
-
-		=== Extracted Relation ===
-		Sentence: We don’t work with any government to spy on others, and we never would," said Dominic Carr, Microsoft's general manager for public affairs.
-		Confidence: 0.9930122494697571 ; Subject : Dominic Carr ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
 	Processed 15 / 39 sentences
-
-		=== Extracted Relation ===
-		Sentence: Rep. Adam Schiff, the ranking Democrat on the House Intelligence Committee, said he's not surprised Russia is singling out Microsoft since Russia's relationship with the U.S. is at "the lowest ebb since the end of the Cold War."
-		Confidence: 0.9965745210647583 ; Subject : Adam Schiff ; Objects : the House Intelligence Committee ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: "Putin as an old KGB officer views the world as a zero-sum game between Russia and the U.S.," he said.
-		Confidence: 0.9190897345542908 ; Subject : Putin ; Objects : KGB ;
-		Adding to set of extracted relations
-		==========
 	Processed 20 / 39 sentences
 	Processed 25 / 39 sentences
-
-		=== Extracted Relation ===
-		Sentence: Cynthia McFadden is the senior legal and investigative correspondent for NBC News.
-		Confidence: 0.9971211552619934 ; Subject : Cynthia McFadden ; Objects : NBC News ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Tracy Connor is a senior writer for NBC News.
-		Confidence: 0.9975358247756958 ; Subject : Tracy Connor ; Objects : NBC News ;
-		Adding to set of extracted relations
-		==========
 	Processed 30 / 39 sentences
 
 		=== Extracted Relation ===
-		Sentence: Connor is responsible for reporting and writing breaking news, features and enterprise stories for NBCNews.com.
-		Confidence: 0.995030403137207 ; Subject : Connor ; Objects : NBCNews.com ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence:  Connor joined NBC News from the New York Daily News, where she was a senior writer covering a broad range of news and supervising the health and immigration beats.
-		Confidence: 0.9592384696006775 ; Subject : Connor ; Objects : NBC News ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Earlier, Connor was a staff writer at the New York Post, United Press International and Brooklyn Paper Publications.
-		Confidence: 0.9957470297813416 ; Subject : Connor ; Objects : the New York Post ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Earlier, Connor was a staff writer at the New York Post, United Press International and Brooklyn Paper Publications.
-		Confidence: 0.9928520917892456 ; Subject : Connor ; Objects : United Press International ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: Earlier, Connor was a staff writer at the New York Post, United Press International and Brooklyn Paper Publications.
-		Confidence: 0.9895823001861572 ; Subject : Connor ; Objects : Brooklyn Paper Publications ;
+		Sentence: After a short transition period, Gates relinquished day-to-day oversight of Microsoft in June 2008—although he remained chairman of the board—in order to devote more time to the Bill & Melinda Gates Foundation.
+		Confidence: 0.9124966859817505 ; Subject : Gates ; Objects : the Bill & Melinda Gates Foundation ;
 		Adding to set of extracted relations
 		==========
 	Processed 35 / 39 sentences
-Extracted annotations for  9  out of total  39  sentences
-Relations extracted from this website: 11 (Overall: 11)
-URL (6 / 10): https://news.microsoft.com/1999/05/19/bill-gates-envisions-strategy-of-knowledge-workers-without-limits-at-microsofts-third-ceo-summit/
+Extracted annotations for  4  out of total  39  sentences
+Relations extracted from this website: 5 (Overall: 5)
+URL (4 / 10): https://www.technologyreview.com/2021/02/14/1018296/bill-gates-climate-change-beef-trees-microsoft/
+	Fetching text from url ... 
+
+	Webpage length (num characters): 12013
+	Annotating the webpage using spacy...
+	Extracted 112 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Sentence: The Microsoft cofounder, who is now cochair of the Bill and Melinda Gates Foundation and chair of the investment fund Breakthrough Energy Ventures, sticks to his past argument that we’ll need numerous energy breakthroughs to have any hope of cleaning up all parts of the economy and the poorest parts of the world.
+		Confidence: 0.9827732443809509 ; Subject : Bill ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: The Microsoft cofounder, who is now cochair of the Bill and Melinda Gates Foundation and chair of the investment fund Breakthrough Energy Ventures, sticks to his past argument that we’ll need numerous energy breakthroughs to have any hope of cleaning up all parts of the economy and the poorest parts of the world.
+		Confidence: 0.9925454258918762 ; Subject : Bill ; Objects : Melinda Gates Foundation ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: The Microsoft cofounder, who is now cochair of the Bill and Melinda Gates Foundation and chair of the investment fund Breakthrough Energy Ventures, sticks to his past argument that we’ll need numerous energy breakthroughs to have any hope of cleaning up all parts of the economy and the poorest parts of the world.
+		Confidence: 0.9930869936943054 ; Subject : Bill ; Objects : Breakthrough Energy Ventures ;
+		Adding to set of extracted relations
+		==========
+	Processed 5 / 112 sentences
+	Processed 10 / 112 sentences
+	Processed 15 / 112 sentences
+	Processed 20 / 112 sentences
+	Processed 25 / 112 sentences
+	Processed 30 / 112 sentences
+	Processed 35 / 112 sentences
+	Processed 40 / 112 sentences
+	Processed 45 / 112 sentences
+	Processed 50 / 112 sentences
+	Processed 55 / 112 sentences
+	Processed 60 / 112 sentences
+	Processed 65 / 112 sentences
+	Processed 70 / 112 sentences
+	Processed 75 / 112 sentences
+	Processed 80 / 112 sentences
+	Processed 85 / 112 sentences
+	Processed 90 / 112 sentences
+	Processed 95 / 112 sentences
+	Processed 100 / 112 sentences
+	Processed 105 / 112 sentences
+	Processed 110 / 112 sentences
+Extracted annotations for  1  out of total  112  sentences
+Relations extracted from this website: 3 (Overall: 3)
+URL (5 / 10): https://twitter.com/billgates?lang=en
+	Fetching text from url ... 
+
+	Webpage length (num characters): 310
+	Annotating the webpage using spacy...
+	Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  4  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (6 / 10): https://www.biography.com/business-figure/bill-gates
+	Fetching text from url ... 
+
+	Webpage length (num characters): 20000
+	Annotating the webpage using spacy...
+	Extracted 195 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+		Sentence: Entrepreneur and businessman Bill Gates and his business partner Paul Allen founded and built the world's largest software business, Microsoft, through technological innovation, keen business strategy and aggressive business tactics.
+		Confidence: 0.9921194911003113 ; Subject : Bill Gates ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: In February 2014, Gates announced that he was stepping down as Microsoft's chairman to focus on charitable work at his foundation, the Bill and Melinda Gates Foundation.
+		Confidence: 0.9834116697311401 ; Subject : Bill ; Objects : Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: In February 2014, Gates announced that he was stepping down as Microsoft's chairman to focus on charitable work at his foundation, the Bill and Melinda Gates Foundation.
+		Confidence: 0.545638382434845 ; Subject : Bill ; Objects : Microsoft ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+	Processed 5 / 195 sentences
+	Processed 10 / 195 sentences
+	Processed 15 / 195 sentences
+	Processed 20 / 195 sentences
+	Processed 25 / 195 sentences
+	Processed 30 / 195 sentences
+	Processed 35 / 195 sentences
+	Processed 40 / 195 sentences
+	Processed 45 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: After attending college for two years, Allen dropped out and moved to Boston, Massachusetts, to work for Honeywell.
+		Confidence: 0.9945504069328308 ; Subject : Allen ; Objects : Honeywell ;
+		Adding to set of extracted relations
+		==========
+	Processed 50 / 195 sentences
+	Processed 55 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: Allen was hired at MITS, and Gates soon left Harvard to work with him.
+		Confidence: 0.9798140525817871 ; Subject : Allen ; Objects : Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: Allen was hired at MITS, and Gates soon left Harvard to work with him.
+		Confidence: 0.9953853487968445 ; Subject : Allen ; Objects : Harvard ;
+		Adding to set of extracted relations
+		==========
+	Processed 60 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: In 1975, Gates and Allen formed Micro-Soft, a blend of "micro-computer" and "software" (they dropped the hyphen within a year).
+		Confidence: 0.8800503611564636 ; Subject : Allen ; Objects : Micro-Soft ;
+		Adding to set of extracted relations
+		==========
+	Processed 65 / 195 sentences
+	Processed 70 / 195 sentences
+	Processed 75 / 195 sentences
+	Processed 80 / 195 sentences
+	Processed 85 / 195 sentences
+	Processed 90 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: Mary was highly respected and well connected with her membership on several corporate boards, including IBM's.
+		Confidence: 0.9843528270721436 ; Subject : Mary ; Objects : IBM ;
+		Adding to set of extracted relations
+		==========
+	Processed 95 / 195 sentences
+	Processed 100 / 195 sentences
+	Processed 105 / 195 sentences
+	Processed 110 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: In mid-1981, Gates and Allen incorporated Microsoft, and Gates was appointed president and chairman of the board.
+		Confidence: 0.9513508081436157 ; Subject : Allen ; Objects : Gates ;
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+	Processed 115 / 195 sentences
+	Processed 120 / 195 sentences
+	Processed 125 / 195 sentences
+	Processed 130 / 195 sentences
+	Processed 135 / 195 sentences
+	Processed 140 / 195 sentences
+	Processed 145 / 195 sentences
+	Processed 150 / 195 sentences
+	Processed 155 / 195 sentences
+	Processed 160 / 195 sentences
+	Processed 165 / 195 sentences
+	Processed 170 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: In 2000, Gates stepped down from the day-to-day operations of Microsoft, turning over the job of CEO to college friend Steve Ballmer, who had been with Microsoft since 1980.
+		Confidence: 0.993462085723877 ; Subject : Steve Ballmer ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 175 / 195 sentences
+
+		=== Extracted Relation ===
+		Sentence: Longtime Microsoft CEO Steve Ballmer was replaced by 46-year-old Satya Nadella.
+		Confidence: 0.9953131675720215 ; Subject : Steve Ballmer ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: Longtime Microsoft CEO Steve Ballmer was replaced by 46-year-old Satya Nadella.
+		Confidence: 0.9963189363479614 ; Subject : Satya Nadella ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 180 / 195 sentences
+	Processed 185 / 195 sentences
+	Processed 190 / 195 sentences
+Extracted annotations for  9  out of total  195  sentences
+Relations extracted from this website: 10 (Overall: 12)
+URL (7 / 10): https://www.linkedin.com/in/williamhgates
 	Fetching text from url ... 
 
 	Webpage length (num characters): 0
@@ -279,694 +324,173 @@ URL (6 / 10): https://news.microsoft.com/1999/05/19/bill-gates-envisions-strateg
 	Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
 Extracted annotations for  0  out of total  0  sentences
 Relations extracted from this website: 0 (Overall: 0)
-URL (7 / 10): https://finance.yahoo.com/news/microsoft-bill-gates-spend-billions-121521424.html
+URL (8 / 10): https://en.wikipedia.org/wiki/Bill_Gates
 	Fetching text from url ... 
 
 	Webpage length (num characters): 20000
 	Annotating the webpage using spacy...
-	Extracted 130 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Extracted 120 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+	Processed 5 / 120 sentences
+	Processed 10 / 120 sentences
 
 		=== Extracted Relation ===
-		Sentence: Microsoft Corp.’s (MSFT) co-founder Bill Gates said his foundation will invest billions of dollars on the construction of factories with the aim of developing a coronavirus vaccine.
-		Confidence: 0.9765519499778748 ; Subject : Bill Gates ; Objects : Microsoft Corp.’s ;
+		Sentence: He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella.[11]
+		Confidence: 0.9970546364784241 ; Subject : Satya Nadella.[11 ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: Microsoft Corp.’s (MSFT) co-founder Bill Gates said his foundation will invest billions of dollars on the construction of factories with the aim of developing a coronavirus vaccine.
-		Confidence: 0.8216437697410583 ; Subject : Bill Gates ; Objects : MSFT ;
-		Adding to set of extracted relations
-		==========
-	Processed 5 / 130 sentences
-	Processed 10 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: In March, Gates announced that he would step down from Microsoft’s board to focus on his health-related work at the Bill and Melinda Gates Foundation.
-		Confidence: 0.9622372984886169 ; Subject : Bill ; Objects : Gates ;
+		Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic endeavors including climate change, global health and development, and education.[12] Since 1987, he has been included in the Forbes list of the world's wealthiest people.[13][14] From 1995 to 2017, he held the Forbes title of the richest person in the world all but four of those years.[15]
+		Confidence: 0.9947163462638855 ; Subject : Gates ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: In March, Gates announced that he would step down from Microsoft’s board to focus on his health-related work at the Bill and Melinda Gates Foundation.
-		Confidence: 0.826630711555481 ; Subject : Bill ; Objects : Microsoft ;
-		Duplicate with lower confidence than existing record. Ignoring this.
-		==========
-	Processed 15 / 130 sentences
-	Processed 20 / 130 sentences
-	Processed 25 / 130 sentences
-	Processed 30 / 130 sentences
-	Processed 35 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: Nord Pool’s U.K. market has gained new members since Brexit, which it attributes more to its dominance in the day-ahead market and “not specifically related to spreads between the two auctions,” said Emma McKiernan, the director of Nordic, Baltic, U.K. and Ireland at Nord Pool.
-		Confidence: 0.9853239059448242 ; Subject : Emma McKiernan ; Objects : Nord Pool ;
-		Adding to set of extracted relations
-		==========
-	Processed 40 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: While it’s been increasingly clear that tax hikes will be a component -- Treasury Secretary Janet Yellen has said at least part of the next bill will have to be paid for, and pointed to higher rates -- key advisers are now making preparations for a package of measures that could include an increase in both the corporate tax rate and the individual rate for high earners.
-		Confidence: 0.9554870128631592 ; Subject : Janet Yellen ; Objects : Treasury ;
-		Adding to set of extracted relations
-		==========
-	Processed 45 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: “His whole outlook has always been that Americans believe tax policy needs to be fair, and he has viewed all of his policy options through that lens,” said Sarah Bianchi, head of U.S. public policy at Evercore ISI and a former economic aide to Biden.
-		Confidence: 0.9435611963272095 ; Subject : Sarah Bianchi ; Objects : Evercore ISI ;
-		Adding to set of extracted relations
-		==========
-	Processed 50 / 130 sentences
-	Processed 55 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: An independent analysis of the Biden campaign tax plan done by the Tax Policy Center estimated it would raise $2.1 trillion over a decade, though the administration’s plan is likely to be smaller.
-		Confidence: 0.7774115800857544 ; Subject : Biden ; Objects : the Tax Policy Center ;
-		Adding to set of extracted relations
-		==========
-	Processed 60 / 130 sentences
-	Processed 65 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: “We’ll have a big robust discussion about the appropriateness of a big tax increase,” Senate Minority Leader Mitch McConnell said last month, predicting Democrats would pursue a reconciliation bill that forgoes the GOP and would aim for a corporate tax even higher than 28%.Kevin Brady, the top Republican on the House Ways & Means Committee, said, “There seems to a be a real drive to tax investment of capital gains at marginal income rates,” and called that a “terrible economic mistake.
-		Confidence: 0.995402455329895 ; Subject : Mitch McConnell ; Objects : Senate ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: “We’ll have a big robust discussion about the appropriateness of a big tax increase,” Senate Minority Leader Mitch McConnell said last month, predicting Democrats would pursue a reconciliation bill that forgoes the GOP and would aim for a corporate tax even higher than 28%.Kevin Brady, the top Republican on the House Ways & Means Committee, said, “There seems to a be a real drive to tax investment of capital gains at marginal income rates,” and called that a “terrible economic mistake.
-		Confidence: 0.9908685684204102 ; Subject : Brady ; Objects : Senate ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: “I don’t think it is an understatement to say the current partisan environment is more severe than 1993” said Ken Kies, managing director of the Federal Policy Group, a former chief of staff of the congressional Joint Committee on Taxation.
-		Confidence: 0.9954365491867065 ; Subject : Ken Kies ; Objects : the Federal Policy Group ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: “I don’t think it is an understatement to say the current partisan environment is more severe than 1993” said Ken Kies, managing director of the Federal Policy Group, a former chief of staff of the congressional Joint Committee on Taxation.
-		Confidence: 0.9855701923370361 ; Subject : Ken Kies ; Objects : Joint Committee on Taxation ;
-		Adding to set of extracted relations
-		==========
-	Processed 70 / 130 sentences
-	Processed 75 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: White House officials including deputy director of the National Economic Council, David Kamin -- who wrote a 2019 paper on “Taxing the Rich” -- are in the process of fleshing out the Biden tax plans.
-		Confidence: 0.986280083656311 ; Subject : David Kamin ; Objects : White House ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: White House officials including deputy director of the National Economic Council, David Kamin -- who wrote a 2019 paper on “Taxing the Rich” -- are in the process of fleshing out the Biden tax plans.
-		Confidence: 0.9936687350273132 ; Subject : David Kamin ; Objects : the National Economic Council ;
-		Adding to set of extracted relations
-		==========
-	Processed 80 / 130 sentences
-	Processed 85 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: “Normally, the party in power gets one or two shots to do major legislative packages,” said Chuck Marr, senior director of Federal Tax Policy at the left-leaning Center on Budget and Policy Priorities.
-		Confidence: 0.9962723255157471 ; Subject : Chuck Marr ; Objects : Federal Tax Policy ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: “Normally, the party in power gets one or two shots to do major legislative packages,” said Chuck Marr, senior director of Federal Tax Policy at the left-leaning Center on Budget and Policy Priorities.
-		Confidence: 0.9956673979759216 ; Subject : Chuck Marr ; Objects : Center on Budget and Policy Priorities ;
-		Adding to set of extracted relations
-		==========
-	Processed 90 / 130 sentences
-	Processed 95 / 130 sentences
-	Processed 100 / 130 sentences
-	Processed 105 / 130 sentences
-	Processed 110 / 130 sentences
-	Processed 115 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: “It will just sit on the balance sheet,” Mike Moritz, partner at Sequoia Capital and a Stripe board member, said in an interview, emphasizing that the money will just be “a rainy day fund -- it pays to have a little more insurance.
-		Confidence: 0.9901298880577087 ; Subject : Mike Moritz ; Objects : Sequoia Capital ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: “It will just sit on the balance sheet,” Mike Moritz, partner at Sequoia Capital and a Stripe board member, said in an interview, emphasizing that the money will just be “a rainy day fund -- it pays to have a little more insurance.
-		Confidence: 0.9470383524894714 ; Subject : Stripe ; Objects : Sequoia Capital ;
-		Adding to set of extracted relations
-		==========
-	Processed 120 / 130 sentences
-
-		=== Extracted Relation ===
-		Sentence: Mark Carney, former governor of both the Bank of England and Bank of Canada, joined its board last month.
-		Confidence: 0.9533161520957947 ; Subject : Mark Carney ; Objects : the Bank of England and Bank of Canada ;
-		Adding to set of extracted relations
-		==========
-	Processed 125 / 130 sentences
-Extracted annotations for  12  out of total  130  sentences
-Relations extracted from this website: 18 (Overall: 19)
-URL (8 / 10): https://en.wikipedia.org/wiki/History_of_Microsoft
-	Fetching text from url ... 
-
-	Webpage length (num characters): 20000
-	Annotating the webpage using spacy...
-	Extracted 98 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
-
-		=== Extracted Relation ===
-		Sentence: Microsoft was founded on April 4, 1975, by Bill Gates and Paul Allen in Albuquerque, New Mexico.[1]
-		Confidence: 0.6922491788864136 ; Subject : Bill Gates ; Objects : Microsoft ;
+		Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic endeavors including climate change, global health and development, and education.[12] Since 1987, he has been included in the Forbes list of the world's wealthiest people.[13][14] From 1995 to 2017, he held the Forbes title of the richest person in the world all but four of those years.[15]
+		Confidence: 0.6004066467285156 ; Subject : Berkshire Hathaway ; Objects : Microsoft ;
 		Confidence is lower than threshold confidence. Ignoring this.
 		==========
-	Processed 5 / 98 sentences
 
 		=== Extracted Relation ===
-		Sentence: In late 1974, Paul Allen, a programmer at Honeywell, was walking through Harvard Square when he saw the cover of the January 1975 issue of Popular Electronics that demonstrated the Altair 8800, the first microcomputer.[9][10] Allen bought the magazine and rushed to Currier House at Harvard College, where he showed it to high school friend Bill Gates.[10] They saw potential to develop an implementation of BASIC for the system.[11] Gates called Altair manufacturer Micro Instrumentation and Telemetry Systems (MITS), offering to demonstrate the implementation.
-		Confidence: 0.8226960301399231 ; Subject : Paul Allen ; Objects : Honeywell ;
-		Adding to set of extracted relations
-		==========
-	Processed 10 / 98 sentences
-	Processed 15 / 98 sentences
-	Processed 20 / 98 sentences
-	Processed 25 / 98 sentences
-	Processed 30 / 98 sentences
-	Processed 35 / 98 sentences
-	Processed 40 / 98 sentences
-	Processed 45 / 98 sentences
-	Processed 50 / 98 sentences
-	Processed 55 / 98 sentences
-	Processed 60 / 98 sentences
-	Processed 65 / 98 sentences
-	Processed 70 / 98 sentences
-	Processed 75 / 98 sentences
-	Processed 80 / 98 sentences
-	Processed 85 / 98 sentences
-
-		=== Extracted Relation ===
-		Sentence: The station was launched on July 15, 1996, to compete with similar news outlets such as CNN.[12][57] Microsoft also launched Slate, an online magazine edited by Michael Kinsley, which offered political and social commentary along with the cartoon
-		Confidence: 0.9880574345588684 ; Subject : Michael Kinsley ; Objects : Microsoft ;
+		Sentence: In October 2017, he was surpassed by Amazon founder and CEO Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[16]
+		Confidence: 0.9970470070838928 ; Subject : Jeff Bezos ; Objects : Amazon ;
 		Adding to set of extracted relations
 		==========
 
 		=== Extracted Relation ===
-		Sentence: The station was launched on July 15, 1996, to compete with similar news outlets such as CNN.[12][57] Microsoft also launched Slate, an online magazine edited by Michael Kinsley, which offered political and social commentary along with the cartoon
-		Confidence: 0.8825120329856873 ; Subject : Michael Kinsley ; Objects : Slate ;
+		Sentence: In October 2017, he was surpassed by Amazon founder and CEO Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[16]
+		Confidence: 0.9961497783660889 ; Subject : Jeff Bezos ; Objects : Gates ;
 		Adding to set of extracted relations
 		==========
-	Processed 90 / 98 sentences
-	Processed 95 / 98 sentences
+	Processed 15 / 120 sentences
+	Processed 20 / 120 sentences
+	Processed 25 / 120 sentences
+	Processed 30 / 120 sentences
+	Processed 35 / 120 sentences
+	Processed 40 / 120 sentences
+	Processed 45 / 120 sentences
 
 		=== Extracted Relation ===
-		Sentence: In October, the Justice Department filed a motion in the federal district court in which they stated that Microsoft had violated an agreement signed in 1994, and asked the court to stop the bundling of Internet Explorer with Windows.[9] The year 1998 was significant in Microsoft's history, with Bill Gates appointing Steve Ballmer as president of Microsoft but remaining as Chair and CEO himself.[9] The company released an update to the consumer version of Windows, Windows 98.[9] Windows 98 came with Internet Explorer 4.0 SP1 (which had Windows Desktop Update bundled), and included new features
-		Confidence: 0.742501437664032 ; Subject : Bill Gates ; Objects : Microsoft ;
-		Duplicate with lower confidence than existing record. Ignoring this.
+		Sentence: Gates left Harvard after two years while Ballmer stayed and graduated magna cum laude.
+		Confidence: 0.660403311252594 ; Subject : Ballmer ; Objects : Harvard ;
+		Confidence is lower than threshold confidence. Ignoring this.
 		==========
 
 		=== Extracted Relation ===
-		Sentence: In October, the Justice Department filed a motion in the federal district court in which they stated that Microsoft had violated an agreement signed in 1994, and asked the court to stop the bundling of Internet Explorer with Windows.[9] The year 1998 was significant in Microsoft's history, with Bill Gates appointing Steve Ballmer as president of Microsoft but remaining as Chair and CEO himself.[9] The company released an update to the consumer version of Windows, Windows 98.[9] Windows 98 came with Internet Explorer 4.0 SP1 (which had Windows Desktop Update bundled), and included new features
-		Confidence: 0.9891408085823059 ; Subject : Bill Gates ; Objects : Microsoft ;
-		Duplicate with lower confidence than existing record. Ignoring this.
-		==========
-
-		=== Extracted Relation ===
-		Sentence: In October, the Justice Department filed a motion in the federal district court in which they stated that Microsoft had violated an agreement signed in 1994, and asked the court to stop the bundling of Internet Explorer with Windows.[9] The year 1998 was significant in Microsoft's history, with Bill Gates appointing Steve Ballmer as president of Microsoft but remaining as Chair and CEO himself.[9] The company released an update to the consumer version of Windows, Windows 98.[9] Windows 98 came with Internet Explorer 4.0 SP1 (which had Windows Desktop Update bundled), and included new features
-		Confidence: 0.7589821815490723 ; Subject : Steve Ballmer ; Objects : Microsoft ;
+		Sentence: Years later, Ballmer succeeded Gates as Microsoft's CEO and maintained that position from 2000 until his resignation in 2014.[43][44] Gates devised an algorithm for pancake sorting as a solution to one of a series of unsolved problems[45] presented in a combinatorics class by professor Harry Lewis.
+		Confidence: 0.9957841634750366 ; Subject : Ballmer ; Objects : Microsoft ;
 		Adding to set of extracted relations
 		==========
-Extracted annotations for  4  out of total  98  sentences
-Relations extracted from this website: 4 (Overall: 7)
-URL (9 / 10): https://www.microsoft.com/en-us
+	Processed 50 / 120 sentences
+	Processed 55 / 120 sentences
+
+		=== Extracted Relation ===
+		Sentence: MITS hired Allen,[53] and Gates took a leave of absence from Harvard to work with him at MITS in November 1975.
+		Confidence: 0.7586666941642761 ; Subject : Gates ; Objects : MITS ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: MITS hired Allen,[53] and Gates took a leave of absence from Harvard to work with him at MITS in November 1975.
+		Confidence: 0.6641727685928345 ; Subject : Gates ; Objects : Harvard ;
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+		Sentence: MITS hired Allen,[53] and Gates took a leave of absence from Harvard to work with him at MITS in November 1975.
+		Confidence: 0.8046414256095886 ; Subject : Gates ; Objects : MITS ;
+		Adding to set of extracted relations
+		==========
+	Processed 60 / 120 sentences
+	Processed 65 / 120 sentences
+
+		=== Extracted Relation ===
+		Sentence: IBM representative Jack Sams mentioned the licensing difficulties during a subsequent meeting with Gates and asked if Microsoft could provide an operating system.
+		Confidence: 0.9038960933685303 ; Subject : Jack Sams ; Objects : IBM ;
+		Adding to set of extracted relations
+		==========
+	Processed 70 / 120 sentences
+	Processed 75 / 120 sentences
+
+		=== Extracted Relation ===
+		Sentence: Later in the decade, Gates repaired his relationship with Allen and together the two donated millions to their childhood school Lakeside.[23] They remained friends until Allen's death in October 2018.[63] Microsoft launched its first retail version of Microsoft Windows on November 20, 1985.
+		Confidence: 0.9122913479804993 ; Subject : Allen ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 80 / 120 sentences
+	Processed 85 / 120 sentences
+	Processed 90 / 120 sentences
+	Processed 95 / 120 sentences
+	Processed 100 / 120 sentences
+
+		=== Extracted Relation ===
+		Sentence: As of January 2014[update], most of Gates's assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.[80] On February 4, 2014, Gates stepped down as chairman of Microsoft to become "technology advisor" alongside CEO Satya Nadella.[11][81] Gates provided his perspective on a range of issues in a substantial interview that was published in the March 27, 2014 issue of Rolling Stone magazine.
+		Confidence: 0.96391361951828 ; Subject : Satya Nadella.[11][81] Gates ; Objects : Gates ;
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+		Sentence: As of January 2014[update], most of Gates's assets are held in Cascade Investment LLC, an entity through which he owns stakes in numerous businesses, including Four Seasons Hotels and Resorts, and Corbis Corp.[80] On February 4, 2014, Gates stepped down as chairman of Microsoft to become "technology advisor" alongside CEO Satya Nadella.[11][81] Gates provided his perspective on a range of issues in a substantial interview that was published in the March 27, 2014 issue of Rolling Stone magazine.
+		Confidence: 0.9193105697631836 ; Subject : Satya Nadella.[11][81] Gates ; Objects : Microsoft ;
+		Adding to set of extracted relations
+		==========
+	Processed 105 / 120 sentences
+	Processed 110 / 120 sentences
+
+		=== Extracted Relation ===
+		Sentence: In an interview that was held at the TED conference in March 2015, with Baidu's CEO, Robin Li, Gates said he would "highly recommend" Nick Bostrom's recent work, Superintelligence: Paths, Dangers, Strategies.[87]
+		Confidence: 0.9849876165390015 ; Subject : Robin Li ; Objects : Baidu ;
+		Adding to set of extracted relations
+		==========
+	Processed 115 / 120 sentences
+Extracted annotations for  10  out of total  120  sentences
+Relations extracted from this website: 12 (Overall: 15)
+URL (9 / 10): https://www.forbes.com/profile/bill-gates/
 	Fetching text from url ... 
 
-	Webpage length (num characters): 1430
+	Webpage length (num characters): 161
 	Annotating the webpage using spacy...
-	Extracted 16 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
-	Processed 5 / 16 sentences
-	Processed 10 / 16 sentences
-	Processed 15 / 16 sentences
-Extracted annotations for  0  out of total  16  sentences
+	Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  2  sentences
 Relations extracted from this website: 0 (Overall: 0)
-URL (10 / 10): https://techcrunch.com/2020/03/13/bill-gates-leaves-microsofts-board/
+URL (10 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
 	Fetching text from url ... 
 
-	Webpage length (num characters): 2454
+	Webpage length (num characters): 0
 	Annotating the webpage using spacy...
-	Extracted 14 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
-
-		=== Extracted Relation ===
-		Sentence: Bill Gates has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors, the company announced Friday afternoon.
-		Confidence: 0.9964918494224548 ; Subject : Bill Gates ; Objects : Microsoft ;
-		Duplicate with lower confidence than existing record. Ignoring this.
-		==========
-	Processed 5 / 14 sentences
-	Processed 10 / 14 sentences
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9685448408126831 ; Subject : John W. Thompson ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9158959984779358 ; Subject : John W. Thompson ; Objects : Greylock Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.8996057510375977 ; Subject : John W. Thompson ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9940468668937683 ; Subject : Reid Hoffman ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9899061322212219 ; Subject : Hugh Johnston ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9381032586097717 ; Subject : Reid Hoffman ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9956891536712646 ; Subject : Reid Hoffman ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.8989916443824768 ; Subject : Teri L. List-Stoll ; Objects : Greylock Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9960766434669495 ; Subject : Satya Nadella ; Objects : Greylock Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9954005479812622 ; Subject : Hugh Johnston ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9968635439872742 ; Subject : Hugh Johnston ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9961118102073669 ; Subject : Hugh Johnston ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.994502067565918 ; Subject : Teri L. List-Stoll ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9972144365310669 ; Subject : Satya Nadella ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9962600469589233 ; Subject : Sandra E. Peterson ; Objects : PepsiCo ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9721714854240417 ; Subject : Teri L. List-Stoll ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9906578660011292 ; Subject : Teri L. List-Stoll ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.993302047252655 ; Subject : Teri L. List-Stoll ; Objects : Clayton, Dubilier & Rice ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.985291063785553 ; Subject : Satya Nadella ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9788212180137634 ; Subject : Sandra E. Peterson ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9857619404792786 ; Subject : Penny Pritzker ; Objects : Gap, Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9965232610702515 ; Subject : Satya Nadella ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9969510436058044 ; Subject : Satya Nadella ; Objects : Clayton, Dubilier & Rice ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9943141937255859 ; Subject : Satya Nadella ; Objects : PSP Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9936317205429077 ; Subject : Sandra E. Peterson ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9966267943382263 ; Subject : Penny Pritzker ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9949469566345215 ; Subject : Charles W. Scharf ; Objects : Microsoft ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9932641386985779 ; Subject : Sandra E. Peterson ; Objects : PSP Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9970213770866394 ; Subject : Sandra E. Peterson ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.99467933177948 ; Subject : Charles W. Scharf ; Objects : Clayton, Dubilier & Rice ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.996990978717804 ; Subject : Arne Sorenson ; Objects : Clayton, Dubilier & Rice ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9870733022689819 ; Subject : Penny Pritzker ; Objects : PSP Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9973219037055969 ; Subject : Penny Pritzker ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9970232248306274 ; Subject : Penny Pritzker ; Objects : Marriott International Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9966628551483154 ; Subject : Arne Sorenson ; Objects : PSP Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9967979192733765 ; Subject : John W. Stanton ; Objects : PSP Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9845753312110901 ; Subject : Charles W. Scharf ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9932101368904114 ; Subject : Charles W. Scharf ; Objects : Marriott International Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9970754981040955 ; Subject : Charles W. Scharf ; Objects : Trilogy Equity Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9926552176475525 ; Subject : Arne Sorenson ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9966762661933899 ; Subject : John W. Stanton ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9957414269447327 ; Subject : Emma Walmsley ; Objects : Wells Fargo & Co. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9852684736251831 ; Subject : Arne Sorenson ; Objects : Marriott International Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9973798394203186 ; Subject : Arne Sorenson ; Objects : Trilogy Equity Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9963825941085815 ; Subject : Arne Sorenson ; Objects : GlaxoSmithKline ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.980352520942688 ; Subject : Arne Sorenson ; Objects : GSK ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9913619756698608 ; Subject : Emma Walmsley ; Objects : Marriott International Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9631894826889038 ; Subject : Padmasree Warrior ; Objects : Marriott International Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9951756000518799 ; Subject : John W. Stanton ; Objects : Trilogy Equity Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9935330748558044 ; Subject : John W. Stanton ; Objects : GlaxoSmithKline ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9829118847846985 ; Subject : John W. Stanton ; Objects : Fable Group Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9883354902267456 ; Subject : Emma Walmsley ; Objects : Trilogy Equity Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9944033026695251 ; Subject : Padmasree Warrior ; Objects : Trilogy Equity Partners ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9955676198005676 ; Subject : Emma Walmsley ; Objects : GlaxoSmithKline ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9945446848869324 ; Subject : Emma Walmsley ; Objects : Fable Group Inc. ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9629442691802979 ; Subject : Padmasree Warrior ; Objects : GlaxoSmithKline ;
-		Adding to set of extracted relations
-		==========
-
-		=== Extracted Relation ===
-		Sentence: John W. Thompson, Microsoft independent chair; Reid Hoffman, partner at Greylock Partners; Hugh Johnston, vice chairman and chief financial officer of PepsiCo; Teri L. List-Stoll, executive vice president and chief financial officer of Gap, Inc.; Satya Nadella, chief executive officer of Microsoft; Sandra E. Peterson, operating partner, Clayton, Dubilier & Rice; Penny Pritzker, founder and chairman, PSP Partners; Charles W. Scharf, chief executive officer and president of Wells Fargo & Co.; Arne Sorenson, president and CEO, Marriott International Inc.; John W. Stanton, chairman of Trilogy Equity Partners; Emma Walmsley, CEO of GlaxoSmithKline plc (GSK); and Padmasree Warrior, founder, CEO and president, Fable Group Inc.
-		Confidence: 0.9644808769226074 ; Subject : Padmasree Warrior ; Objects : Fable Group Inc. ;
-		Adding to set of extracted relations
-		==========
-Extracted annotations for  2  out of total  14  sentences
-Relations extracted from this website: 57 (Overall: 58)
-================== ALL RELATIONS for per:employee_of (104) =================
-Confidence: 0.9975358247756958 	 | Subject: Tracy Connor 	 | Object: NBC News
-Confidence: 0.9973798394203186 	 | Subject: Arne Sorenson 	 | Object: Trilogy Equity Partners
-Confidence: 0.9973219037055969 	 | Subject: Penny Pritzker 	 | Object: Wells Fargo & Co.
-Confidence: 0.9972144365310669 	 | Subject: Satya Nadella 	 | Object: PepsiCo
-Confidence: 0.9972124695777893 	 | Subject: Bill Gates 	 | Object: Microsoft
-Confidence: 0.9971211552619934 	 | Subject: Cynthia McFadden 	 | Object: NBC News
-Confidence: 0.9970754981040955 	 | Subject: Charles W. Scharf 	 | Object: Trilogy Equity Partners
-Confidence: 0.9970232248306274 	 | Subject: Penny Pritzker 	 | Object: Marriott International Inc.
-Confidence: 0.9970213770866394 	 | Subject: Sandra E. Peterson 	 | Object: Wells Fargo & Co.
-Confidence: 0.996990978717804 	 | Subject: Arne Sorenson 	 | Object: Clayton, Dubilier & Rice
-Confidence: 0.9969510436058044 	 | Subject: Satya Nadella 	 | Object: Clayton, Dubilier & Rice
-Confidence: 0.9969043731689453 	 | Subject: Mark Zuckerberg 	 | Object: Facebook
-Confidence: 0.9968635439872742 	 | Subject: Hugh Johnston 	 | Object: Gap, Inc.
-Confidence: 0.9968065023422241 	 | Subject: Nadella 	 | Object: Gates
-Confidence: 0.9967979192733765 	 | Subject: John W. Stanton 	 | Object: PSP Partners
-Confidence: 0.9967865943908691 	 | Subject: Melinda Gates 	 | Object: Facebook
-Confidence: 0.9966762661933899 	 | Subject: John W. Stanton 	 | Object: Wells Fargo & Co.
-Confidence: 0.9966705441474915 	 | Subject: Fiona Hill 	 | Object: the Brookings Institution
-Confidence: 0.9966628551483154 	 | Subject: Arne Sorenson 	 | Object: PSP Partners
-Confidence: 0.9966267943382263 	 | Subject: Penny Pritzker 	 | Object: Microsoft
-Confidence: 0.9965745210647583 	 | Subject: Adam Schiff 	 | Object: the House Intelligence Committee
-Confidence: 0.9965232610702515 	 | Subject: Satya Nadella 	 | Object: Microsoft
-Confidence: 0.9964539408683777 	 | Subject: Melinda Gates 	 | Object: Microsoft
-Confidence: 0.9964290857315063 	 | Subject: Jeff Bezos 	 | Object: Amazon
-Confidence: 0.9963825941085815 	 | Subject: Arne Sorenson 	 | Object: GlaxoSmithKline
-Confidence: 0.9962828159332275 	 | Subject: Bill 	 | Object: Facebook
-Confidence: 0.9962723255157471 	 | Subject: Chuck Marr 	 | Object: Federal Tax Policy
-Confidence: 0.9962600469589233 	 | Subject: Sandra E. Peterson 	 | Object: PepsiCo
-Confidence: 0.9961118102073669 	 | Subject: Hugh Johnston 	 | Object: Microsoft
-Confidence: 0.9960766434669495 	 | Subject: Satya Nadella 	 | Object: Greylock Partners
-Confidence: 0.9957470297813416 	 | Subject: Connor 	 | Object: the New York Post
-Confidence: 0.9957414269447327 	 | Subject: Emma Walmsley 	 | Object: Wells Fargo & Co.
-Confidence: 0.9956891536712646 	 | Subject: Reid Hoffman 	 | Object: Gap, Inc.
-Confidence: 0.9956673979759216 	 | Subject: Chuck Marr 	 | Object: Center on Budget and Policy Priorities
-Confidence: 0.9955676198005676 	 | Subject: Emma Walmsley 	 | Object: GlaxoSmithKline
-Confidence: 0.9954822063446045 	 | Subject: Steve Ballmer 	 | Object: Gates
-Confidence: 0.9954365491867065 	 | Subject: Ken Kies 	 | Object: the Federal Policy Group
-Confidence: 0.995402455329895 	 | Subject: Mitch McConnell 	 | Object: Senate
-Confidence: 0.9954005479812622 	 | Subject: Hugh Johnston 	 | Object: PepsiCo
-Confidence: 0.99528568983078 	 | Subject: Nadella 	 | Object: Microsoft
-Confidence: 0.9951756000518799 	 | Subject: John W. Stanton 	 | Object: Trilogy Equity Partners
-Confidence: 0.995030403137207 	 | Subject: Connor 	 | Object: NBCNews.com
-Confidence: 0.9949469566345215 	 | Subject: Charles W. Scharf 	 | Object: Microsoft
-Confidence: 0.99467933177948 	 | Subject: Charles W. Scharf 	 | Object: Clayton, Dubilier & Rice
-Confidence: 0.9945446848869324 	 | Subject: Emma Walmsley 	 | Object: Fable Group Inc.
-Confidence: 0.994502067565918 	 | Subject: Teri L. List-Stoll 	 | Object: PepsiCo
-Confidence: 0.9944033026695251 	 | Subject: Padmasree Warrior 	 | Object: Trilogy Equity Partners
-Confidence: 0.9943141937255859 	 | Subject: Satya Nadella 	 | Object: PSP Partners
-Confidence: 0.9940468668937683 	 | Subject: Reid Hoffman 	 | Object: Microsoft
-Confidence: 0.9936687350273132 	 | Subject: David Kamin 	 | Object: the National Economic Council
-Confidence: 0.9936317205429077 	 | Subject: Sandra E. Peterson 	 | Object: Microsoft
-Confidence: 0.9935330748558044 	 | Subject: John W. Stanton 	 | Object: GlaxoSmithKline
-Confidence: 0.993302047252655 	 | Subject: Teri L. List-Stoll 	 | Object: Clayton, Dubilier & Rice
-Confidence: 0.9932641386985779 	 | Subject: Sandra E. Peterson 	 | Object: PSP Partners
-Confidence: 0.9932101368904114 	 | Subject: Charles W. Scharf 	 | Object: Marriott International Inc.
-Confidence: 0.9930122494697571 	 | Subject: Dominic Carr 	 | Object: Microsoft
-Confidence: 0.9929335713386536 	 | Subject: Bill 	 | Object: Microsoft
-Confidence: 0.9928520917892456 	 | Subject: Connor 	 | Object: United Press International
-Confidence: 0.9926552176475525 	 | Subject: Arne Sorenson 	 | Object: Wells Fargo & Co.
-Confidence: 0.9924630522727966 	 | Subject: Priscilla Chan 	 | Object: Facebook
-Confidence: 0.9920836091041565 	 | Subject: Mark Zuckerberg 	 | Object: Microsoft
-Confidence: 0.9913619756698608 	 | Subject: Emma Walmsley 	 | Object: Marriott International Inc.
-Confidence: 0.9908685684204102 	 | Subject: Brady 	 | Object: Senate
-Confidence: 0.9906578660011292 	 | Subject: Teri L. List-Stoll 	 | Object: Microsoft
-Confidence: 0.9901298880577087 	 | Subject: Mike Moritz 	 | Object: Sequoia Capital
-Confidence: 0.9895823001861572 	 | Subject: Connor 	 | Object: Brooklyn Paper Publications
-Confidence: 0.9883354902267456 	 | Subject: Emma Walmsley 	 | Object: Trilogy Equity Partners
-Confidence: 0.9880574345588684 	 | Subject: Michael Kinsley 	 | Object: Microsoft
-Confidence: 0.9870733022689819 	 | Subject: Penny Pritzker 	 | Object: PSP Partners
-Confidence: 0.986280083656311 	 | Subject: David Kamin 	 | Object: White House
-Confidence: 0.9857619404792786 	 | Subject: Penny Pritzker 	 | Object: Gap, Inc.
-Confidence: 0.9855701923370361 	 | Subject: Ken Kies 	 | Object: Joint Committee on Taxation
-Confidence: 0.9853239059448242 	 | Subject: Emma McKiernan 	 | Object: Nord Pool
-Confidence: 0.985291063785553 	 | Subject: Satya Nadella 	 | Object: Gap, Inc.
-Confidence: 0.9852684736251831 	 | Subject: Arne Sorenson 	 | Object: Marriott International Inc.
-Confidence: 0.9845753312110901 	 | Subject: Charles W. Scharf 	 | Object: Wells Fargo & Co.
-Confidence: 0.9829118847846985 	 | Subject: John W. Stanton 	 | Object: Fable Group Inc.
-Confidence: 0.980352520942688 	 | Subject: Arne Sorenson 	 | Object: GSK
-Confidence: 0.9788212180137634 	 | Subject: Sandra E. Peterson 	 | Object: Gap, Inc.
-Confidence: 0.9765519499778748 	 | Subject: Bill Gates 	 | Object: Microsoft Corp.’s
-Confidence: 0.9721714854240417 	 | Subject: Teri L. List-Stoll 	 | Object: Gap, Inc.
-Confidence: 0.9716662764549255 	 | Subject: Emily Gera 	 | Object: Microsoft
-Confidence: 0.9685448408126831 	 | Subject: John W. Thompson 	 | Object: Microsoft
-Confidence: 0.9644808769226074 	 | Subject: Padmasree Warrior 	 | Object: Fable Group Inc.
-Confidence: 0.9631894826889038 	 | Subject: Padmasree Warrior 	 | Object: Marriott International Inc.
-Confidence: 0.9629442691802979 	 | Subject: Padmasree Warrior 	 | Object: GlaxoSmithKline
-Confidence: 0.9622372984886169 	 | Subject: Bill 	 | Object: Gates
-Confidence: 0.9592384696006775 	 | Subject: Connor 	 | Object: NBC News
-Confidence: 0.9554870128631592 	 | Subject: Janet Yellen 	 | Object: Treasury
-Confidence: 0.9533161520957947 	 | Subject: Mark Carney 	 | Object: the Bank of England and Bank of Canada
-Confidence: 0.9470383524894714 	 | Subject: Stripe 	 | Object: Sequoia Capital
-Confidence: 0.9435611963272095 	 | Subject: Sarah Bianchi 	 | Object: Evercore ISI
-Confidence: 0.9381032586097717 	 | Subject: Reid Hoffman 	 | Object: PepsiCo
-Confidence: 0.9190897345542908 	 | Subject: Putin 	 | Object: KGB
-Confidence: 0.9158959984779358 	 | Subject: John W. Thompson 	 | Object: Greylock Partners
-Confidence: 0.8996057510375977 	 | Subject: John W. Thompson 	 | Object: PepsiCo
-Confidence: 0.8989916443824768 	 | Subject: Teri L. List-Stoll 	 | Object: Greylock Partners
-Confidence: 0.8825120329856873 	 | Subject: Michael Kinsley 	 | Object: Slate
-Confidence: 0.8520439267158508 	 | Subject: Priscilla Chan 	 | Object: Microsoft
-Confidence: 0.8226960301399231 	 | Subject: Paul Allen 	 | Object: Honeywell
-Confidence: 0.8216437697410583 	 | Subject: Bill Gates 	 | Object: MSFT
-Confidence: 0.8198130130767822 	 | Subject: Steven Levy 	 | Object: Wired
-Confidence: 0.7774115800857544 	 | Subject: Biden 	 | Object: the Tax Policy Center
-Confidence: 0.7589821815490723 	 | Subject: Steve Ballmer 	 | Object: Microsoft
+	Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  0  sentences
+Relations extracted from this website: 0 (Overall: 0)
+================== ALL RELATIONS for per:employee_of (31) =================
+Confidence: 0.9972770810127258 	 | Subject: Gates 	 | Object: Berkshire Hathaway
+Confidence: 0.9970546364784241 	 | Subject: Satya Nadella.[11 	 | Object: Microsoft
+Confidence: 0.9970526695251465 	 | Subject: Gates 	 | Object: American Express
+Confidence: 0.9970470070838928 	 | Subject: Jeff Bezos 	 | Object: Amazon
+Confidence: 0.9963189363479614 	 | Subject: Satya Nadella 	 | Object: Microsoft
+Confidence: 0.9961497783660889 	 | Subject: Jeff Bezos 	 | Object: Gates
+Confidence: 0.9957841634750366 	 | Subject: Ballmer 	 | Object: Microsoft
+Confidence: 0.9953853487968445 	 | Subject: Allen 	 | Object: Harvard
+Confidence: 0.9953131675720215 	 | Subject: Steve Ballmer 	 | Object: Microsoft
+Confidence: 0.9947163462638855 	 | Subject: Gates 	 | Object: Microsoft
+Confidence: 0.9945504069328308 	 | Subject: Allen 	 | Object: Honeywell
+Confidence: 0.9930869936943054 	 | Subject: Bill 	 | Object: Breakthrough Energy Ventures
+Confidence: 0.992627739906311 	 | Subject: Steve Lohr 	 | Object: Microsoft
+Confidence: 0.9925454258918762 	 | Subject: Bill 	 | Object: Melinda Gates Foundation
+Confidence: 0.9921194911003113 	 | Subject: Bill Gates 	 | Object: Microsoft
+Confidence: 0.9890077710151672 	 | Subject: Daisuke Wakabayashi 	 | Object: Microsoft
+Confidence: 0.9885230660438538 	 | Subject: Daniel Ives 	 | Object: Wedbush Securities
+Confidence: 0.9868191480636597 	 | Subject: Bill Gates 	 | Object: Microsoft Corporation
+Confidence: 0.9849876165390015 	 | Subject: Robin Li 	 | Object: Baidu
+Confidence: 0.9843528270721436 	 | Subject: Mary 	 | Object: IBM
+Confidence: 0.9837643504142761 	 | Subject: William Henry Gates III 	 | Object: Microsoft Corporation
+Confidence: 0.9834116697311401 	 | Subject: Bill 	 | Object: Gates
+Confidence: 0.9827732443809509 	 | Subject: Bill 	 | Object: Microsoft
+Confidence: 0.9798140525817871 	 | Subject: Allen 	 | Object: Gates
+Confidence: 0.96391361951828 	 | Subject: Satya Nadella.[11][81] Gates 	 | Object: Gates
+Confidence: 0.9193105697631836 	 | Subject: Satya Nadella.[11][81] Gates 	 | Object: Microsoft
+Confidence: 0.9124966859817505 	 | Subject: Gates 	 | Object: the Bill & Melinda Gates Foundation
+Confidence: 0.9122913479804993 	 | Subject: Allen 	 | Object: Microsoft
+Confidence: 0.9038960933685303 	 | Subject: Jack Sams 	 | Object: IBM
+Confidence: 0.8800503611564636 	 | Subject: Allen 	 | Object: Micro-Soft
+Confidence: 0.8046414256095886 	 | Subject: Gates 	 | Object: MITS
 Total # of iterations = 1
